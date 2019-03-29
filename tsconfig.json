@@ -17,6 +17,20 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "currency": [
+        "dist/currency"
+      ],
+      "currency/*": [
+        "dist/currency/*"
+      ],
+      "@nomadreservations/ngx-currency": [
+        "dist/nomadreservations/ngx-currency"
+      ],
+      "@nomadreservations/ngx-currency/*": [
+        "dist/nomadreservations/ngx-currency/*"
+      ]
+    }
   }
 }
