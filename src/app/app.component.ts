@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { InputService } from '@nomadreservations/ngx-currency';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,9 @@ export class AppComponent {
     nullable: true
   };
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor(
+    private formBuilder: FormBuilder
+  ) {
     this.buildForm();
   }
 

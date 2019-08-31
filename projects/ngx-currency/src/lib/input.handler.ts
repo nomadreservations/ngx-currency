@@ -148,6 +148,10 @@ export class InputHandler {
         this.inputService.value = value;
     }
 
+    get placeholder(): string {
+        return this.inputService.applyMask(true, '0');
+    }
+
     private setCursorPosition(event: any): void {
         setTimeout(() => {
             event.target.setSelectionRange(event.target.value.length, event.target.value.length);

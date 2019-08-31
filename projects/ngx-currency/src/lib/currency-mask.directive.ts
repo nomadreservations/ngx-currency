@@ -56,6 +56,7 @@ export class CurrencyMaskDirective implements AfterViewInit, ControlValueAccesso
 
   ngOnInit() {
     this.inputHandler = new InputHandler(this.elementRef.nativeElement, (Object as any).assign({}, this.optionsTemplate, this.options));
+    this.elementRef.nativeElement.placeholder = this.inputHandler.placeholder;
   }
 
   @HostListener('blur', ['$event'])
