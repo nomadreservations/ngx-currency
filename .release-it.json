@@ -2,7 +2,7 @@
   "non-interactive": true,
 
   "hooks": {
-    "after:bump": ["npx ng build currency", "npx auto-changelog -p"],
+    "after:bump": ["npm run build", "npx auto-changelog -p"],
     "after:release": "echo Successfully released ${version} to ${dist.repo}."
   },
   "npm": {
