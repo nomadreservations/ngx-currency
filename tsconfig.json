@@ -26,10 +26,10 @@
         "dist/currency/*"
       ],
       "@nomadreservations/ngx-currency": [
-        "dist/nomadreservations/ngx-currency"
+        "dist"
       ],
       "@nomadreservations/ngx-currency/*": [
-        "dist/nomadreservations/ngx-currency/*"
+        "dist/*"
       ]
     }
   }

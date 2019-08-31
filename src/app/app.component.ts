@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { InputService } from '@nomadreservations/ngx-currency';
 
 @Component({
   selector: 'app-root',
